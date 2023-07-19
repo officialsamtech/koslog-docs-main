@@ -1,0 +1,14 @@
+site_name: 
+site_description: "Koslog Stack docs"
+
+nav:
+  - Introduction: index.md
+  - Features: features.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Contributions: contributions.md
+
+docs_dir: docs
+
+plugins:
+  - techdocs-core

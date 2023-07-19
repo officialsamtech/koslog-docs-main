@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "koslog-docs-main"
+  description: "Koslog Stack docs"
+  annotations:
+    github.com/project-slug: officialsamtech/koslog-docs-main
+    # backstage.io/managed-by-location: https://github.com/officialsamtech/nodejs-app/blob/main/catalog-info.yaml
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/koslog"
